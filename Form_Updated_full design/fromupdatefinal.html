@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylefrom.css">
+
+    <title>Document</title>
+</head>
+
+<div>
+    
+    <div id="multi-step-form-container">
+        <!-- Form Steps / Progress Bar -->
+        <ul class="form-stepper form-stepper-horizontal text-center mx-auto pl-0">
+            <!-- Step 1 -->
+            <li class="form-stepper-active text-center form-stepper-list" step="1">
+                <a class="mx-2">
+                    <span class="form-stepper-circle">
+                        <span>1</span>
+                    </span>
+                    <div class="label">Basic Details Field - I</div>
+                </a>
+            </li>
+            <!-- Step 2 -->
+            <li class="form-stepper-unfinished text-center form-stepper-list" step="2">
+                <a class="mx-2">
+                    <span class="form-stepper-circle text-muted">
+                        <span>2</span>
+                    </span>
+                    <div class="label text-muted">Chose the appropriate details</div>
+                </a>
+            </li>
+            <!-- Step 3 -->
+            <li class="form-stepper-unfinished text-center form-stepper-list" step="3">
+                <a class="mx-2">
+                    <span class="form-stepper-circle text-muted">
+                        <span>3</span>
+                    </span>
+                    <div class="label text-muted">Select the facilities provided</div>
+                </a>
+            </li>
+             <!-- Step 4 -->
+            <li class="form-stepper-unfinished text-center form-stepper-list" step="4">
+                <a class="mx-2">
+                    <span class="form-stepper-circle text-muted">
+                        <span>4</span>
+                    </span>
+                    <div class="label text-muted">Select Availability </div>
+                </a>
+            </li>
+            <!-- Step 5 -->
+            <li class="form-stepper-unfinished text-center form-stepper-list" step="5">
+                <a class="mx-2">
+                    <span class="form-stepper-circle text-muted">
+                        <span>5</span>
+                    </span>
+                    <div class="label text-muted">Address Details</div>
+                </a>
+            </li>
+              <!-- Step 6 -->
+              <li class="form-stepper-unfinished text-center form-stepper-list" step="6">
+                <a class="mx-2">
+                    <span class="form-stepper-circle text-muted">
+                        <span>6</span>
+                    </span>
+                    <div class="label text-muted">Upload Photos</div>
+                </a>
+            </li>
+              
+        </ul>
+        <!-- Step Wise Form Content -->
+        <form id="userAccountSetupForm" name="userAccountSetupForm" enctype="multipart/form-data" method="POST">
+            <!-- Step 1 Content -->
+            <section id="step-1" class="form-step">
+               <h2 class="font-normal">Basic Details Field - I</h2>
+                <!-- Step 1 input fields -->
+                <div class="mt-3">
+                   <h2 class="font-normal">Titel</h2><br> 
+                   <input type="text" name="titel_name" id="step_1_titel" size="35">
+                        <div class="grid-container">
+                     <div class="owner grid-item">
+                        <h2 class="font-normal">Owner</h2><br>
+                        <input type="text" name="Owner-name" id="ownerName" size="20">
+                     </div>
+                     <div class="Phone_number grid-item">
+                        <h2 class="font-normal">Phone Number</h2><br>
+                        <input type="tel" name="owner_phone_number" id="ownre_Phonenumber" size="15">
+                     </div>
+                     <div class="Property_type  grid-item"><h2 class="font-normal">Property type</h2><br>
+                        <div class="dropdown">
+                            <button>Drop Down</button>
+                            <div class="dropdown-content">
+                            <h4 class="font-normal">pr -1</h4>
+                            <h4 class="font-normal">pr -2</h4>
+                            <h4 class="font-normal">pr -3</h4>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="aminites">
+                   <h2 class="font-normal">Please select the appropriate numbers</h2>
+                   <h1 class="font-normal Amities-Text">Aminites</h1>
+                   <table><tr>
+                       <td><h3 class="font-normal">Bedroom  <input type="text" name="" id="" size="2" class="gap-2"></h3></td>
+                       <td><h3 class="font-normal">Bathroom  <input type="text" name="" id="" size="2" class="gap-2"></h3></td>
+                       <td><h3 class="font-normal">Hall room <input type="text" name="" id="" size="2" class="gap-2"></h3></td>
+                       <td><h3 class="font-normal">Kitchen  <input type="text" name="" id="" size="2" class="gap-2"></h3></td>
+                        </tr>
+                        <tr>
+                            <td><h3 class="font-normal">Drawing  <input type="text" name="" id="" size="2" class="gap-2_1"></h3></td>
+                            <td><h3 class="font-normal">Dinning  <input type="text" name="" id="" size="2" class="gap-2_2"></h3></td>
+                            <td><h3 class="font-normal">Doors  <input type="text" name="" id="" size="2" class="gap-2_3"></h3></td>
+                            <td><h3 class="font-normal">Windows <input type="text" name="" id="" size="2" class="gap-2_4"></h3></td>
+                             </tr>
+                             <tr>
+                                <td><h3 class="font-normal">Ventilators <input type="text" name="" id="" size="2" class="gap-2_5"></h3></td>
+                                <td><h3 class="font-normal">Light  <input type="text" name="" id="" size="2" class="gap-2_6"></h3></td>
+                                <td><h3 class="font-normal">Fan  <input type="text" name="" id="" size="2" class="gap-2_7"></h3></td>
+                                <td><h3 class="font-normal">Switchboard  <input type="text" name="" id="" size="2" class="gap-2_8"></h3></td>
+                                 </tr>
+                                 <tr>
+                                    <td><h3 class="font-normal">Bedroom  <input type="text" name="" id="" size="2" class="gap-2"></h3></td>
+                                    <td><h3 class="font-normal">Bedroom  <input type="text" name="" id="" size="2" class="gap-2_9"></h3></td>
+                                    <td><h3 class="font-normal">Bedroom  <input type="text" name="" id="" size="2" class="gap-2_10"></h3></td>
+                                    <td><h3 class="font-normal">Bedroom  <input type="text" name="" id="" size="2" class="gap-2"></h3></td>
+                                     </tr>
+                                     </table>
+                                     <h2 class="font-normal">Furniture's</h2>
+                                     <table>
+                                        <tr>
+                                            <td><h3 class="font-normal">Chair <input type="text" name="" id="" size="2" class="gap-2"></h3></td>
+                                            <td><h3 class="font-normal">Tabel <input type="text" name="" id="" size="2" class="gap-2"></h3></td>
+                                            <td><h3 class="font-normal">Almira <input type="text" name="" id="" size="2" class="gap-2"></h3></td>
+                                            <td><h3 class="font-normal">Bed <input type="text" name="" id="" size="2" class="gap-2"></h3></td>
+                                        </tr>
+                                        <tr>
+                                            <td><h3 class="font-normal">Chair <input type="text" name="" id="" size="2" class="gap-2"></h3></td>
+                                            <td><h3 class="font-normal">Tabel <input type="text" name="" id="" size="2" class="gap-2"></h3></td>
+                                            <td><h3 class="font-normal">Almira <input type="text" name="" id="" size="2" class="gap-2"></h3></td>
+                                            <td><h3 class="font-normal">Bed <input type="text" name="" id="" size="2" class="gap-2"></h3></td>
+                                        </tr>
+                                     </table>
+                </div>
+                </div>
+                <div class="mt-3">
+                    <button class="button btn-navigate-form-step" type="button" step_number="2">Next</button>
+                </div>
+            </section>
+            <!-- Step 2 Content, default hidden on page load. -->
+            <section id="step-2" class="form-step d-none">
+                <h2 class="font-normal">Chose the appropriate details</h2>
+                <!-- Step 2 input fields -->
+                <div class="mt-3">
+                    <div class="step2-tabel">
+                    <table>
+                        <tr>
+                            <td> <div class="gap-3">
+                                <select name="" id="">
+                                <option value="">Property Type</option>
+                                  </select>
+                                  </div>
+                            </td>
+                            <td> <div class="gap-3">
+                              <select name="" id="">
+                                <option value="">Building Type</option>
+                              </select>
+                            </div>
+                            </td>
+                            <td> <div class="gap-3">
+                                <select name="" id="">
+                                    <option value="">Building Type</option>
+                                </select> 
+                                </div>
+                            </td>
+                            <td><div class="gap-3">
+                                <select name="" id="">
+                                    <option value="">Building Type</option>
+                                </select>
+                            </div>
+                            </td><br>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="gap-3">
+                                <select name="" id="">
+                                    <option value="">Building Type</option>
+                                </select>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="gap-3">
+                                <select name="" id="">
+                                    <option value="">Building Type</option>
+                                </select>
+                              </div>
+                            </td>
+                            <td>
+                                <div class="gap-3">
+                                <select name="" id="">
+                                    <option value="">Building Type</option>
+                                </select>
+                                </div>
+                            </td>
+                            <td>  <div class="gap-3">
+                                <select name="" id="">
+                                <option value="">Building Type</option>
+                            </select>
+                            </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                
+                <h2 class="font-normal">Write down the appropriate size/area</h2><br>
+                
+                <table>
+                    <tr>
+                      <td > <h2 class="font-normal">Entire Property</h2></td>
+                      <td ><input type="text" size="40" class="gap-3"></td>
+                      </tr>
+                      <tr>
+                        <td > <h2 class="font-normal">Bedroom</h2></td>
+                        <td ><input type="text" size="40" class="gap-3"></td>
+                        <td > <h2 class="font-normal">Kitchen</h2></td>
+                        <td ><input type="text" size="40" class="gap-3"></td>
+                        </tr>
+                        <tr>
+                            <td > <h2 class="font-normal">Bathroom</h2></td>
+                            <td ><input type="text" size="40" class="gap-3"></td>
+                            <td > <h2 class="font-normal">Windows</h2></td>
+                            <td ><input type="text" size="40" class="gap-3"></td>
+                            </tr>
+                            <tr>
+                                <td > <h2 class="font-normal">Hall room</h2></td>
+                                <td ><input type="text" size="40" class="gap-3"></td>
+                                <td > <h2 class="font-normal">Switchboard</h2></td>
+                                <td ><input type="text" size="40" class="gap-3"></td>
+                                </tr>
+                                <tr>
+                                    <td > <h2 class="font-normal">Hall room</h2></td>
+                                    <td ><input type="text" size="40" class="gap-3"></td>
+                                    <td > <h2 class="font-normal">Switchboard</h2></td>
+                                    <td ><input type="text" size="40" class="gap-3"></td>
+                                    </tr>
+                                    <td > <h2 class="font-normal">Kitchen</h2></td>
+                                    <td ><input type="text" size="40" class="gap-3"></td>
+                                    <td > <h2 class="font-normal">Bedroom</h2></td>
+                                    <td ><input type="text" size="40" class="gap-3"></td>
+                                    </tr>
+                                </tr>
+                                <td > <h2 class="font-normal">Drawing/Dinning</h2></td>
+                                <td ><input type="text" size="40" class="gap-3"></td>
+                                </tr>
+                  </table>
+                </div>
+                <div class="mt-3">
+                    <button class="button btn-navigate-form-step" type="button" step_number="1">Prev</button>
+                    <button class="button btn-navigate-form-step" type="button" step_number="3">Next</button>
+                </div>
+            </section>
+            <!-- Step 3 Content, default hidden on page load. -->
+            <section id="step-3" class="form-step d-none">
+                <h2 class="font-normal">Select the facilities provided</h2>
+                <!-- Step 3 input fields -->
+                <div class="mt-3">
+
+                    
+                    <tabel>
+                      <tr>
+                        <td ><input type="checkbox" name="" id="" ><span class="gap-3">Bedroom</span>  </td>
+                        <td><input type="checkbox" name="" id=""> <span class="gap-3">Bedroom</span> </td>
+                        <td><input type="checkbox" name="" id=""> <span class="gap-3">Bedroom</span>  </td>
+                      </tr> <br>
+                      <tr>
+                        <td><input type="checkbox" name="" id="" ><span class="gap-4">Drawing </span></td>
+                        <td><input type="checkbox" name="" id=""> <span class="gap-6">Gym</span></td>
+                        <td><input type="checkbox" name="" id=""> <span class="gap-6">Mess</span></td>
+                      </tr> <br>
+                      <td><input type="checkbox" name="" id="" ><span class="gap-5">Ventilator</span>  </td>
+                      <td><input type="checkbox" name="" id=""> <span class="gap-5">Ventilator</span> </td>
+                      <td><input type="checkbox" name="" id=""> <span class="gap-5">Ventilator</span>  </td>
+                    </tr><br>
+                    <td><input type="checkbox" name="" id="" ><span class="gap-3">Bedroom</span>  </td>
+                    <td><input type="checkbox" name="" id=""> <span class="gap-3">Bedroom</span> </td>
+                    <td><input type="checkbox" name="" id=""> <span class="gap-3">Bedroom</span>  </td>
+                  </tr> <br>
+                  <td><input type="checkbox" name="" id="" ><span class="gap-3">Bedroom</span>  </td>
+                  <td><input type="checkbox" name="" id=""> <span class="gap-3">Bedroom</span> </td>
+                  <td><input type="checkbox" name="" id=""> <span class="gap-3">Bedroom</span>  </td>
+                </tr> <br>
+                    </tabel>
+
+                      <div class="page3_ttp">
+                            
+                          <h2 class="font-normal page3_ttp">
+                            Type of tenant preferred
+                          </h2>
+                               <input type="checkbox" name="" id=""><span class="font-normal gap-3">Single person ( male )</span><br>
+                               <input type="checkbox" name="" id=""><span class="font-normal gap-3">Single person ( female )</span><br>
+                               <input type="checkbox" name="" id=""><span class="font-normal gap-3">Single person ( male )</span><br>
+                               <input type="checkbox" name="" id=""><span class="font-normal gap-3">Single person ( male )</span><br>
+                               <input type="checkbox" name="" id=""><span class="font-normal gap-3">Single person ( male )</span><br>
+                               <input type="checkbox" name="" id=""><span class="font-normal gap-3">Single person ( male )</span><br>
+                      </div>
+
+
+
+                </div>
+                <div class="mt-3">
+                    <button class="button btn-navigate-form-step" type="button" step_number="2">Prev</button>
+                    <button class="button btn-navigate-form-step" type="button" step_number="4">Next</button>
+                </div>
+            </section>
+            <section id="step-4" class="form-step d-none">
+                <h2 class="font-normal">Select Availability Timing & Rates</h2>
+                <!-- Step 4 input fields -->
+                <div class="mt-3">
+                    <div class="page3-1table">
+                    <table>
+                        <tr>
+                            <td><h3 class="font-normal gap-3"></h3><span>Electricity Available</span></td>
+                            <td><h3 class="font-normal gap-3"></h3><span>Electricity Charge</span></td>
+                            <td><h3 class="font-normal gap-3"></h3><span>Service Type</span></td>
+                        </tr> <br>
+                        <tr>
+                            <td><input type="text" size="15"></td>
+                            <td><input type="text" size="15"></td>
+                            <td>
+                               <select name="" id="">
+                                <option value="">Include</option>
+                                <option value="">Exclude</option>
+                               </select>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="page3-2table">
+                    <table>
+                        <tr>
+                            <td><h3 class="font-normal gap-3"></h3><span>Water Available</span></td>
+                            <td><h3 class="font-normal gap-3"></h3><span>Water Charge</span></td>
+                            <td><h3 class="font-normal gap-3"></h3><span>Service Type</span></td>
+                        </tr> <br>
+                        <tr>
+                            <td><input type="text" size="15"></td>
+                            <td><input type="text" size="15"></td>
+                            <td>
+                                <div class="dropdown">
+                                    <select name="" id="">
+                                        <option value="">Include</option>
+                                        <option value="">Exclude</option>
+                                       </select>
+                                </div>
+                              </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="page3-3table">
+                    <h2 class="font-normal t3-bgap">Parking Avialable</h2>
+                    <table>
+                        <tr>
+                            <td><h3 class="font-normal gap-3"></h3><span>No. of wheels</span></td>
+                            <td><h3 class="font-normal gap-3"></h3><span>Parking Charge</span></td>
+                            <td><h3 class="font-normal gap-3"></h3><span>Service Type</span></td>
+                        </tr> <br>
+                        <tr>
+                            <td> <div class="dropdown">
+                                <select name="" id="">
+                                <option><h4 class="font-normal">Own Parking </h4></option>
+                                <option><h4 class="font-normal">2 wheeler</h4></option>
+                                </select>
+                              </td>
+                            <td> <select name="" id="">
+                                <option><h4 class="font-normal">‘0’charg e </h4></option>
+                                <option><h4 class="font-normal">Rs.500month</h4></option>
+                                </select></td>
+                            <td>
+                                <select name="" id="">
+                                    <option value="">Include</option>
+                                    <option value="">Exclude</option>
+                                   </select>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                
+                </div>
+                <div class="mt-3">
+                    <button class="button btn-navigate-form-step" type="button" step_number="3">Prev</button>
+                    <button class="button btn-navigate-form-step" type="button" step_number="5">Next</button>
+                </div>
+            </section>
+            <section id="step-5" class="form-step d-none">
+                <h2 class="font-normal">Address Details</h2>
+                <!-- Step 5 input fields -->
+                <div class="mt-3">
+                  <div class="pg5-1tb">
+                    <table>
+                        <tr>
+                            <td><h3 class="font-normal gap-3"></h3><span>State</span></td>
+                            <td><h3 class="font-normal gap-3"></h3><span>District Concerned</span></td>
+                            <td><h3 class="font-normal gap-3"></h3><span>Pin code</span></td>
+                        </tr> <br>
+                        <tr>
+                            <td><input type="text" size="20"></td>
+                            <td><input type="text" size="15"></td>
+                            <td>
+                                <input type="text" size="10">
+                            </td>
+                        </tr>
+                    </table>
+                            </div>
+                       <div class="pg5-tb2">
+                        <tabel><tr>
+                            <td><span class="font-normal gap-7">Select Branch</span></td>
+                            <td><span class="font-normal gap-3">Select Zone</span></td>
+                            </tr> <br>
+                            <tr>
+                                <td><input type="text" size="50" class="gap-3"></td>
+                                <td><input type="text" size="50" class="gap-3"></td>
+                            </tr>
+                            
+                        </tabel>
+                       </div>
+                       <div class="pg5-tb2">
+                        <tabel><tr>
+                            <td><span class="font-normal gap-8">Municipal Board/GP Name</span></td>
+                            <td><span class="font-normal gap-3">Ward number</span></td>
+                            </tr> <br>
+                            <tr>
+                                <td><input type="text" size="50" class="gap-3"></td>
+                                <td><input type="text" size="50" class="gap-3"></td>
+                            </tr>
+                            
+                        </tabel>
+                       </div>  
+                       <div class="pg5-tb2">
+                        <tabel><tr>
+                            <td><span class="font-normal gap-7">Lane Name</span></td>
+                            <td><span class="font-normal gap-9">Sub Lane Name</span></td>
+                            </tr> <br>
+                            <tr>
+                                <td><input type="text" size="50" class="gap-3"></td>
+                                <td><input type="text" size="50" class="gap-3"></td>
+                            </tr>
+                            
+                        </tabel>
+                       </div>   
+                       <div class="landmark-box">
+                        <span class="font-normal"> Any Land mark</span><br>
+                        <textarea name="" id="" cols="30" rows="10" class="tbox-landmark"></textarea>
+                       </div>  
+                       <div class="pg5-tb2">
+                        <tabel><tr>
+                            <td><span class="font-normal gap-5">House / Flat / Building Name-Number</span></td>
+                            <td><span class="font-normal gap-10">Monthly rent</span></td>
+                            <td><span class="font-normal gap-10">Security money if exists</span></td>
+                            </tr> <br>
+                            <tr>
+                                <td><input type="text" size="50" class="gap-5"></td>
+                                <td><input type="text" size="15" class="gap-5"></td>
+                                <td><input type="text" size="17" class="gap-3"></td>
+                            </tr>
+                            
+                        </tabel>
+                       </div>      
+                </div>
+                <div class="mt-3">
+                    <button class="button btn-navigate-form-step" type="button" step_number="4">Prev</button>
+                    <button class="button btn-navigate-form-step" type="button" step_number="6">Next</button>
+                </div>
+            </section>
+            <section id="step-6" class="form-step d-none">
+                <h2 class="font-normal">Upload Photos - ID Proofs</h2>
+                <!-- Step 6 input fields -->
+                <div class="mt-3">
+                     <div class="custom-button-container">
+                        <div class="btnlg"> <span class="sign">+</span> Upload building exterior photos (max 3)
+                           </div>         
+                                 <div class="drag-drop_section">
+                               </div>
+                            </div>
+                            <div class="custom-button-container">
+                                <div class="btnlg"> <span class="sign">+</span> Upload bedroom related photos (max 6)
+                                   </div>         
+                                         <div class="drag-drop_section">
+                                       </div>
+                                    </div>
+                                    <div class="custom-button-container">
+                                        <div class="btnlg"> <span class="sign">+</span> Upload building exterior photos (max 3)
+                                           </div>         
+                                                 <div class="drag-drop_section">
+                                               </div>
+                                            </div>
+                                            <div class="custom-button-container">
+                                                <div class="btnlg"> <span class="sign">+</span> Upload building exterior photos (max 3)
+                                                   </div>         
+                                                         <div class="drag-drop_section">
+                                                       </div>
+                                                    </div>
+                                                    <div class="custom-button-container">
+                                                        <div class="btnlg"> <span class="sign">+</span> Upload building exterior photos (max 3)
+                                                           </div>         
+                                                                 <div class="drag-drop_section">
+                                                               </div>
+                                                            </div>
+                                                            <div class="custom-button-container">
+                                                                <div class="btnlg"> <span class="sign">+</span> Upload building exterior photos (max 3)
+                                                                   </div>         
+                                                                         <div class="drag-drop_section">
+                                                                       </div>
+                                                                    </div>
+                                                                                                                        
+
+                </div>
+                <div class="mt-3">
+                    <button class="button btn-navigate-form-step" type="button" step_number="5">Prev</button>
+                    <button class="button submit-btn" type="submit">Save</button>
+                </div>
+            </section>
+    
+        </form>
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="js/from.js"></script>
+</body>
+</html>

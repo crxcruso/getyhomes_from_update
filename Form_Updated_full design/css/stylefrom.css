@@ -1,0 +1,405 @@
+h1 {
+    text-align: center;
+}
+h2 {
+    margin: 0;
+}
+#multi-step-form-container {
+    margin-top: 5rem;
+}
+.text-center {
+    text-align: center;
+}
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+.pl-0 {
+    padding-left: 0;
+}
+.button {
+    padding: 0.7rem 1.5rem;
+    border: 1px solid #4361ee;
+    background-color: #4361ee;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.submit-btn {
+    border: 1px solid #0e9594;
+    background-color: #0e9594;
+}
+.mt-3 {
+    margin-top: 2rem;
+}
+.d-none {
+    display: none;
+}
+.form-step {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 3rem;
+}
+.font-normal {
+    font-weight: normal;
+}
+ul.form-stepper {
+    counter-reset: section;
+    margin-bottom: 3rem;
+}
+ul.form-stepper .form-stepper-circle {
+    position: relative;
+}
+ul.form-stepper .form-stepper-circle span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+.form-stepper-horizontal {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+ul.form-stepper > li:not(:last-of-type) {
+    margin-bottom: 0.625rem;
+    -webkit-transition: margin-bottom 0.4s;
+    -o-transition: margin-bottom 0.4s;
+    transition: margin-bottom 0.4s;
+}
+.form-stepper-horizontal > li:not(:last-of-type) {
+    margin-bottom: 0 !important;
+}
+.form-stepper-horizontal li {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: start;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+.form-stepper-horizontal li:not(:last-child):after {
+    position: relative;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    height: 1px;
+    content: "";
+    top: 32%;
+}
+.form-stepper-horizontal li:after {
+    background-color: #dee2e6;
+}
+.form-stepper-horizontal li.form-stepper-completed:after {
+    background-color: #4da3ff;
+}
+.form-stepper-horizontal li:last-child {
+    flex: unset;
+}
+ul.form-stepper li a .form-stepper-circle {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: 0;
+    line-height: 1.7rem;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.38);
+    border-radius: 50%;
+}
+.form-stepper .form-stepper-active .form-stepper-circle {
+    background-color: #4361ee !important;
+    color: #fff;
+}
+.form-stepper .form-stepper-active .label {
+    color: #4361ee !important;
+}
+.form-stepper .form-stepper-active .form-stepper-circle:hover {
+    background-color: #4361ee !important;
+    color: #fff !important;
+}
+.form-stepper .form-stepper-unfinished .form-stepper-circle {
+    background-color: #f8f7ff;
+}
+.form-stepper .form-stepper-completed .form-stepper-circle {
+    background-color: #0e9594 !important;
+    color: #fff;
+}
+.form-stepper .form-stepper-completed .label {
+    color: #0e9594 !important;
+}
+.form-stepper .form-stepper-completed .form-stepper-circle:hover {
+    background-color: #0e9594 !important;
+    color: #fff !important;
+}
+.form-stepper .form-stepper-active span.text-muted {
+    color: #fff !important;
+}
+.form-stepper .form-stepper-completed span.text-muted {
+    color: #fff !important;
+}
+.form-stepper .label {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+.form-stepper a {
+    cursor: default;
+}
+#step_1_titel{
+    margin-bottom: 1.5rem;
+}
+.table1-gap{
+       margin: 1.5rem;
+}
+.dropdown {
+    display: inline-block;
+    position: relative;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+  }
+  .dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: #00A4BD;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    }
+
+ .aminites{
+    margin-top: 1.5rem;
+    
+   
+ }
+ .Amities-Text{
+  text-align: left; 
+ }
+ .grid-container1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    }
+    .column {
+        float: left;
+        width: 25%;
+        padding: 10px;
+        height: 300px; /* Should be removed. Only for demonstration */
+      }
+
+      .gap-2{
+          margin-left: 1.5rem;
+          margin-right: 10rem;
+        
+      }
+      .gap-2_1{
+        margin-left: 1.7rem;
+      }
+      .gap-2_2{
+        margin-left: 2.2rem;
+      }
+      .gap-2_3{
+        margin-left: 3.6rem;
+      }
+      .gap-2_4{
+        margin-left: 0.9rem;
+      }
+      .gap-2_5{
+        margin-left: 0.8rem;
+      }
+      .gap-2_6{
+        margin-left: 3.7rem;
+      }
+      .gap-2_7{
+        margin-left: 4.7rem;
+        margin-right: 0.5rem;
+      
+      }
+      .gap-2_8{
+        margin-left: 0.1rem;
+      }
+      .gap-2_9{
+        margin-left: 0.5rem;
+      }
+      .gap-2_10{
+        margin-left: 0.9rem;
+      }
+
+      tabel,td{
+         margin-bottom: 1.5rem;
+         padding-bottom: 0.5rem;
+      }
+      .step2-tabel{
+         margin: 1.5rem;
+      }
+      .gap-3{
+          margin-left: 0.5rem;
+          margin-right: 15rem;
+         text-align: center;
+          
+      }
+    
+    input[type=checkbox]
+      {
+        /* Double-sized Checkboxes */
+        -ms-transform: scale(2); /* IE */
+        -moz-transform: scale(2); /* FF */
+        -webkit-transform: scale(2); /* Safari and Chrome */
+        -o-transform: scale(2); /* Opera */
+        transform: scale(2);
+        padding: 10px;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+      }
+      
+      /* Might want to wrap a span around your checkbox text */
+      .checkboxtext
+      {
+        /* Checkbox text */
+        font-size: 110%;
+       
+        display: inline;
+      }
+
+      .gap-4{
+        margin-left: 0.5rem; 
+        margin-right: 15.2rem; 
+        text-align: center; 
+      }
+      .gap-5{
+        margin-left: 0.5rem; 
+        margin-right: 14.8rem; 
+        
+      }
+  .gap-6{
+    margin-right: 16.8rem;
+    margin-left: 0.5rem;
+  }
+  .page3_ttp{
+
+    margin-top: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+  .t3-bgap{
+         margin-bottom: 0.5rem;
+  }
+  .gap-7{
+    margin-left: 0.5rem;
+    margin-right: 32.7rem;
+  }
+  .gap-8{
+    margin-left: 0.5rem;
+    margin-right: 27.3rem;
+  }
+  .gap-9{
+    margin-left: 1.6rem;
+  }
+  .pg5-tb2{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .landmark-box{
+    margin-top: 1rem;
+    bottom: 1rem;
+  }
+  .gap-10{
+    margin-left: 8.3rem;
+    margin-right: 10.3rem;
+  }
+  .tbox-landmark{
+    width: 680px; 
+    height: 58px;
+  }
+  .upload-photos{
+    width: 35rem;
+    height: 5rem;
+    text-align: left;
+    font-weight: bold;
+    border-radius: 12rem;
+    background-color: #4da3ff;
+  }
+  .add-img{
+    float: left;
+    height: 2.5rem;
+    width: 7rem;
+  }
+  .upload-photos:hover, .upload-photos:focus{
+    background-color: #2980B9;
+  }
+  .drophere{
+    border: 0.1rem solid #ccc;
+    padding: 5px;
+    min-height: 100px;
+   
+  }
+
+  .custom-button-container{
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 30px;
+    padding: 17px 19px 12px 20px;
+    text-decoration: none;
+    border: none;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    width: 38rem;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0.25rem 0.50rem rgba(0,0,0,0.3);
+
+  }
+  
+  .custom-button-container .sign{
+    color: #dee2e6;
+    font-size: xx-large;
+    font-weight: bold;
+  }
+  .custom-button-container.active .sign{
+    transform: rotateZ(45deg);
+  }
+  .custom-button-container.active .drag-drop_section{
+    display: block; 
+    position: relative;
+    margin: 0.5rem 0.5rem;
+    background-color: #ccc;
+    padding: 5rem 7rem;
+    border-radius: 5%;
+    text-decoration: none;
+    transition: 500ms;
+
+  }
+  .custom-button-container .drag-drop_section:hover{
+    background: #f1f1f1;
+  }
